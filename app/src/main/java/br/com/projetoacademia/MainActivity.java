@@ -86,11 +86,9 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_serie) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_compartilhar) {
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_contato) {
 
         }
 

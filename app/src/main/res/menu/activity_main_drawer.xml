@@ -10,24 +10,20 @@
             android:title="Explorar" />
         <item
             android:id="@+id/nav_serie"
-            android:icon="@drawable/ic_action_name"
+            android:icon="@drawable/ic_serie"
             android:title="Minha Série" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
     </group>
 
     <item android:title="Communicação">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_compartilhar"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Compartilhar" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_contato"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:title="Contato" />
         </menu>
     </item>
 
