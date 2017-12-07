@@ -2,14 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_login"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:background="@drawable/background_login">
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+
+    <EditText
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="70dp"
+        android:background="@color/black"
+        android:drawableLeft="@drawable/ic_person_white"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:maxLines="1"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textColorHint="#fff" />
 
 
-    <ImageButton
-     android:layout_width="290dp"
-     android:layout_height="70dp"
-     android:background="@drawable/fb_login"/>
+    <!--<ImageButton-->
+        <!--android:layout_width="331dp"-->
+        <!--android:layout_height="69dp"-->
+        <!--android:background="@drawable/fb_login" />-->
+
+
 
 </LinearLayout>
